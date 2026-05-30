@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!-- Шапка сайта с логотипом и навигационным меню -->
     <header>
         <div class="container nav">
             <a href="#"><img src="./img/logo_64.png" alt="logo"></a>
@@ -22,10 +23,12 @@
     </header>
 
     <main>
+        <!-- Главный экран (Hero section) с именем, профессией и фотографией -->
         <section>
             <div class="container hero">
                 <div class="hello">
                     <h1>HELLO I`M DASHA CHEHLATA</h1>
+                    <!-- SVG-текст по дуге для декоративного оформления профессии -->
                     <svg class="arc" viewBox="0 0 700 200">
                         <path id="curve" d="M50,60 Q350,180 650,60" fill="transparent" />
 
@@ -37,6 +40,7 @@
                     </svg>
                 </div>
                 <div class="hero-image">
+                    <!-- Декоративные фигуры за фотографией -->
                     <div class="shape1"></div>
                     <div class="shape2"></div>
 
@@ -47,8 +51,10 @@
             </div>
         </section>
 
+        <!-- Раздел с моими целями в обучении и развитии -->
         <section class="briefs">
             <h2>Мои цели</h2>
+            <!-- Карточки целей, оформленные в виде списка -->
             <ul>
                 <li>
                     <h3>Верстка по макету</h3>
@@ -82,10 +88,12 @@
             </ul>
         </section>
 
+        <!-- Раздел с образованием и опытом работы -->
         <section class="projects">
             <div class="container">
                 <h2>Мои знания и опыт</h2>
 
+                <!-- Карточка образования -->
                 <div class="project project1">
                     <div class="overlay"></div>
                     <div class="content">
@@ -105,6 +113,7 @@
                     </div>
                 </div>
 
+                <!-- Карточка предыдущего опыта работы -->
                 <div class="project project2">
                     <div class="overlay"></div>
                     <div class="content">
@@ -122,8 +131,9 @@
                     </div>
                 </div>
 
+                <!-- Карточка текущего места работы -->
                 <div class="project project3">
-                    <div class="overlay"></div>
+                    <div class="overlay"></div><!-- Затемнение фона для улучшения читаемости текста -->
                     <div class="content">
                         <div class="left">
                             <span>Текущая работа</span>
@@ -142,11 +152,13 @@
 
             </div>
         </section>
-        
+
+        <!-- Раздел сертификатов -->
         <section class="certificates">
             <div class="container">
                 <h2>Сертификаты</h2>
 
+                <!-- Контейнер для отображения сертификатов -->
                 <div class="certificates-list">
 
                     <div class="certificate-card">
@@ -201,6 +213,7 @@
             </div>
         </section>
 
+        <!-- Раздел обо мне: хобби, интересы и личные качества -->
         <section class="about-me">
             <div class="container">
                 <div class="about-top">
@@ -241,6 +254,8 @@
         </section>
     </main>
 
+
+    <!-- Подвал сайта с контактной информацией -->
     <footer class="footer">
         <div class="container footer-top">
 
@@ -259,11 +274,13 @@
             <div class="footer-right">
                 <p class="subscribe-text">Напишите ваш email для обратной связи со мной</p>
 
+                <!-- Форма для обратной связи -->
                 <form class="subscribe" id="emailForm">
                     <input type="email" id="emailInput" placeholder="Ваш email" required>
                     <button type="submit">Отправить</button>
                 </form>
 
+                <!-- Блок контактных данных и социальных сетей -->
                 <div class="contacts">
                     <p>
                         Мой номер:
